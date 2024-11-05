@@ -5,7 +5,7 @@ title: Research Projects
 
 # Robotics Research
 
-I've been immensely lucky to have the academic resources that I have had and most of the projects resulted in publications which I link to below, but some either failed or were explored more out of personal interest -- I include both below. All of the overviews are very brief, contact me if you'd like to hear more!
+I've been immensely fortunate to have the academic resources that I have had and most of the projects resulted in publications which I link to below, but some either failed or were explored more out of personal interest -- I include both below. All of the overviews are very brief, contact me if you'd like to hear more!
 
 ---
 
