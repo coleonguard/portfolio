@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Home
+title: Portfolio · Cole J.
 ---
 
-# Welcome to My GitHub Pages Site
+# Welcome!
 
-This is a simple website using the **Hyde theme**.
-
-Here are some of my latest posts:
+Check out any of the pages in the sidebar to get started.
 
 <ul>
   {% for post in site.posts %}
