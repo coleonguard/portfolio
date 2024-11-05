@@ -1,7 +1,11 @@
 title: "Welcome to My Hyde Themed Page"
 description: "This is a test page for GitHub Pages using the Hyde theme"
 author: "Cole Brayton Johnson"
-theme: jekyll-theme-hyde
 
-plugins:
-  - jekyll-feed
+# Remove the theme line since you are now using the theme files directly
+# theme: jekyll-theme-hyde
+
+# Other optional settings
+markdown: kramdown
+kramdown:
+  input: GFM
