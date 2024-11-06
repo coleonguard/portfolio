@@ -82,7 +82,6 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
   </div>
 </div>
 
-
 <div id="modal1" class="modal">
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal1')">&times;</button>
@@ -90,36 +89,36 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
     <!-- First section with text on the left and image on the right -->
     <div class="two-column">
       <div class="text-column">
-        <h3> Challenges </h3>
-        <p>You'll notice that I did not use the typical cylindrical motors to actuate the joints. This was due to cost - each of those (e.g. Unitree B1) are $8,000+ which are personally unafordable. Instead, I decided to build in the motors to the skeletal structure of the robot. This posed a massive mechanical engineering challenge as parameterizing the model is now nearly impossible. I built an API that plugs into my Fusion 360 for this that draws on available dimensions from Servocity, where I sourced the motors. This enables parameterization of limb lengths so that I can optimize stress profiles in FEA in Fusion 360.
-        <h3> Objectives </h3>
-        A main objectives that I gave myself for this project was to try to mimic the motion patterns of humanoid joints as closely as possible. A good example of this is the scapular motion, which does not follow a typical fixed radius arc. Instead is moves approximately linearly until an inflection point at which it translates to an arc of approximately fixed radius. To mimic this, I used linear rails with linear bearings with pendulum-esque structures actuated by a central motor. On the linear rails, there are stiff springs. As the linear rail (attached to the shoulders) move up the rail linearly, they quickly collide with the springs, which then translate the motion to an arc.<br><br>
-        Similarly, shoulder abduction (generally controlled by the supraspinatus and lateral middle deltoid muscles) are controlled by linear rails themselves actuated by in-line motors attached to the spine via universal joints which allows for full range of motion.
-        <h3> Optimizations </h3>
-        The entire assembly had to be low-cost. Because of the in-line motor design and the entirely custom gearboxes, it is able to be assembled at the cost of approximately $3,000. To achieve this, I had to design a Fusion 360 widget to automatically parameterize and generate crown gearboxes since I needed to translate axial motion from the motors which is in-line with the joints to a perpendicular motion which also controlling the exact torque profiles of the joints.<br><br>
-        The use of custom-coded widgets was especially useful because I was computing the necessary torque profiles of the different joints through walking simulation in MuJoCo. The walking dynamics were manually defined in the beginning after a long attempt using Pinocchio.
-        <h3> Manufacturing </h3>
-        </p>
+        <h3>Challenges</h3>
+        <p>You'll notice that I did not use the typical cylindrical motors to actuate the joints. This was due to cost - each of those (e.g. Unitree B1) are $8,000+ which are personally unaffordable. Instead, I decided to build in the motors to the skeletal structure of the robot. This posed a massive mechanical engineering challenge as parameterizing the model is now nearly impossible. I built an API that plugs into my Fusion 360 for this that draws on available dimensions from Servocity, where I sourced the motors. This enables parameterization of limb lengths so that I can optimize stress profiles in FEA in Fusion 360.</p>
+        <h3>Objectives</h3>
+        <p>A main objective that I gave myself for this project was to try to mimic the motion patterns of humanoid joints as closely as possible. A good example of this is the scapular motion, which does not follow a typical fixed radius arc. Instead, it moves approximately linearly until an inflection point at which it translates to an arc of approximately fixed radius. To mimic this, I used linear rails with linear bearings with pendulum-esque structures actuated by a central motor. On the linear rails, there are stiff springs. As the linear rail (attached to the shoulders) moves up the rail linearly, they quickly collide with the springs, which then translate the motion to an arc.</p>
+        <p>Similarly, shoulder abduction (generally controlled by the supraspinatus and lateral middle deltoid muscles) is controlled by linear rails themselves actuated by in-line motors attached to the spine via universal joints, allowing for a full range of motion.</p>
       </div>
       <div class="image-column">
         <img src="images/human.PNG" alt="Icarus Render">
       </div>
     </div>
+    <!-- Optimizations section in single column -->
+    <h3>Optimizations</h3>
+    <p>The entire assembly had to be low-cost. Because of the in-line motor design and the entirely custom gearboxes, it is able to be assembled at the cost of approximately $3,000. To achieve this, I had to design a Fusion 360 widget to automatically parameterize and generate crown gearboxes since I needed to translate axial motion from the motors, which is in-line with the joints, to a perpendicular motion while also controlling the exact torque profiles of the joints.</p>
+    <p>The use of custom-coded widgets was especially useful because I was computing the necessary torque profiles of the different joints through walking simulation in MuJoCo. The walking dynamics were manually defined in the beginning after a long attempt using Pinocchio.</p>
+    <!-- Manufacturing section -->
     <h3>Manufacturing</h3>
-    <p>
-        Due to budget constraints, I was only able to manufacture the hip-down parts. Below, I showcase one of the legs and the knee joint. All of the parts were manufactured from aluminum (a fastener for the ankle was steel due to shearing concerns) using a 5-axis CNC for 3D parts and a waterjet for the 2D parts.
-    </p>
+    <p>Due to budget constraints, I was only able to manufacture the hip-down parts. Below, I showcase one of the legs and the knee joint. All of the parts were manufactured from aluminum (a fastener for the ankle was steel due to shearing concerns) using a 5-axis CNC for 3D parts and a waterjet for the 2D parts.</p>
     <!-- Third set of side-by-side images -->
     <div class="small-image-row">
-        <img src="images/gearbox.png" alt="Gearbox">
-        <img src="images/leg.png" alt="Leg">
+      <img src="images/gearbox.png" alt="Gearbox">
+      <img src="images/leg.png" alt="Leg">
     </div>
+    <!-- Stress-Test section -->
     <h3>Stress-Test</h3>
-    <p>After simulating necessary joint torque values, I evaluated how well the manufactured joints matched. Compared to simulated values, the resulting torque profiles were near identical. Below is an interesting comparison to humanoid joint profiles, which the robotic joints universally out perform.</p>
+    <p>After simulating necessary joint torque values, I evaluated how well the manufactured joints matched. Compared to simulated values, the resulting torque profiles were nearly identical. Below is an interesting comparison to humanoid joint profiles, which the robotic joints universally outperformed.</p>
     <!-- Single full-width image -->
     <img src="images/stress_test.png" alt="Icarus Robot Close-up" class="centered-image">
   </div>
 </div>
+
 
 <div id="modal2" class="modal">
   <div class="modal-content">
@@ -129,6 +128,16 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
         <img src="images/fingie1.png" alt="view1">
         <img src="images/fingie2.png" alt="view2">
     </div>
+    <h3>Description</h3>
+    <p>The goal of this project was to use creative manufacturing techniques and materials to biomechanically simulate anthropomorphic hand movements. Almost all prosthetics/robotic hands on the market are maximum of 10-13 DoF, this project aims to capture the full 27 DoF present in normal human hands.</p>
+    <h3>Some Challenges</h3>
+    <ul>
+      <li><strong>Complex Joint Dynamics</strong>: There are so many complex dynamics in the human hand. Just squeeze your metacarpals together, that's not even generally considered a degree of motion but it is! The thumb is an absolute mess with how it interacts with the trapezium (still better than the mess of bones in the foot though)! So, it was relatively obvious from the start that simple joints using bearings, bushings, etc. would be pointless since half of the joints work in multiple dimensions simultaneously anyway. So, what I became interested in what flexible resin printing (all of the white in the renders above). This enables twisting, compression, extension, etc. of what could be considered ligaments and tendons. These were wrapped around the base and end of the metacarpals and bolted into place. They were also snap-fitted to the back of the fingers and act as the grip as well on the distal joints.</li>
+      <li><strong>Long-Range Force Communication</strong>: We know from prosthetics that EMG measurements in the palm/hand are essentially non-existent and similarly anatomically we know that the muscles responsible for hand movement are almost entirely activated and contained within the forearm. Similarly, for this project, I housed the actuators which were simple servo motors with about 10kg/cm of torque with a custom spool attachment on top. These spools were wrapped with kevlar string and routed through holes in the hand to actuate different directions. An added benefit of the flexible resin prints is that inverse movement already occurs without active actuation, so the motors only need to actuate joints in one direction in general.</li>
+      <li><strong>Abduction & Adduction of Phlanges</strong>: If I were to return to this project, I would custom manufacture gear boxes to fit inside of the palm and between the metacarpals to do much of the hand's actuation, but I did this project when I was less confident in my mechanical engineering, so I decided instead to deal with non-tendon-actuated movement by simply carving out an area in the phalanges in the fingers and inserting a micro-servo motor which then locks its arm via jointed bolt to the end of the metacarpals, and thus achieves direct drive of the abduction/adduction motion.</li>
+    </ul>
+    <h3>Where This Ended Up</h3>
+    All of this project was manufactured back when was working on it, but it ended up failing because of the very low fidelity of control that I could exert on each joint. This was a combination of how I used tendons and flexible ligament structures in the design. I have given some thought to how I would redo this if I were to give it another go. Some thoughts are in this <a href="images/design_doc.pdf" target="_blank">design document</a>.
   </div>
 </div>
 
