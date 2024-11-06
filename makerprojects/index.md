@@ -144,9 +144,32 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
 <div id="modal3" class="modal">
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal3')">&times;</button>
-    <h2>Dum-E: Modular Robotic Arm</h2>
-    <img src="/assets/images/project3-large.jpg" alt="Dum-E Arm">
-    <p>Detailed description of Dum-E project goes here.</p>
+    <h2>Dum-E: Modular Robotic Arm & Generalized End Effector</h2>
+    <div class="two-column">
+      <div class="text-column">
+        <h3>Description</h3>
+        <p>My intention was to hang this robotic arm from the ceiling and have a large enough range of motion to reach any object in about a third of my dorm room. Due to size, utility requirements, etc. I had multiple goals</p>
+        <ul>
+          <li><strong>Modularity</strong>: Due to the number of joints, I designed all of them to share the same internal structure with differing mechanically parameterized outer diameters. </li>
+          <li><strong>Generalized End Effector</strong>: I wanted the arm to be very multi-use and as such, I designed numerous different end effectors such as grippers, drills, electromagnetic holders, and a couple others. The end effector of the arm used a servo mechanism to lock the attached end effector into place and used pogo pins to communicate power and datastreams.</li>
+          <li><strong>Inverse Kinematics</strong>: This was the first project that I attempted inverse kinematics for and largely succeeded. I used MuJoCo to produce a digital twin and update the positioning in real-time as the robotic arm moved.</li>
+          <li><strong>Custom PCBs</strong>: I used a magnetically locking drawer in the base of the arm to house the Raspberry Pi 4B+ which acted as the central controller. Since there were so many joints in series and I couldn't fit dozens of wires in the housing of the arm, I designed and manufactured custom PCBs which used modbus commands to control each motor individually based on indices sent in the commands (this thus reduced the number of wires to a total of four).</li>
+        </ul>
+      </div>
+      <div class="image-column">
+        <img src="images/bodies1.png" alt="body Render">
+      </div>
+    </div>
+    <h3>Modular Joint Design</h3>
+    <div class="small-image-row">
+        <img src="images/joint1.png" alt="view1">
+        <img src="images/joint2.png" alt="view2">
+    </div>
+    <h3>Generalized End Effector Design</h3>
+    <div class="small-image-row">
+        <img src="images/endeffector1.png" alt="view1">
+        <img src="images/endeffector2.png" alt="view2">
+    </div>
   </div>
 </div>
 
