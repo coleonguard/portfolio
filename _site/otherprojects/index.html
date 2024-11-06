@@ -32,7 +32,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="https://portfolio.colebjohnson.com">
+        <a href="https://www.colebjohnson.com">
           Cole Johnson
         </a>
       </h1>
@@ -43,20 +43,290 @@
       <a class="sidebar-nav-item" href="https://www.colebjohnson.com">Home</a>
       <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/research">Research</a>
       <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/experience">Industry & Start-Up</a>
-      <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/makerprojects">Maker Projects</a>
-      <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/otherprojects">Other Projects</a>
-      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/colebjohnson">LinkedIn</a>
+      <div class="sidebar-nav-item-row">
+        <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/makerprojects">Maker Projects</a>
+        <span class="separator">&middot;</span>
+        <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/otherprojects">Other Projects</a>
+      </div>
+      <div class="sidebar-nav-item-row">
+        <a class="sidebar-nav-item" href="https://portfolio.colebjohnson.com/education">Education</a>
+        <span class="separator">&middot;</span>
+        <a class="sidebar-nav-item" href="https://www.linkedin.com/in/colebjohnson">LinkedIn</a>
+      </div>
     </nav>
 
     <p>&copy; 2024. All rights reserved.</p>
   </div>
 </div>
+<style>
+.sidebar-nav-item-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Adjust spacing as needed */
+}
+
+.separator {
+  font-size: 1.2em; /* Adjust size as needed */
+  line-height: 1;
+}</style>
 
 
     <div class="content container">
-      <h1 id="research-page">Research Page</h1>
+      <h1 id="non-maker-projects">Non-Maker Projects</h1>
 
-<p>Welcome to the research section of my site. Here I will share my research work and updates.</p>
+<p>I’m curious about nearly everything. I love drawing, writing poetry, thinking about philosophy (mostly political, mind, and ethics currently), complexity theory (<em>currently on a binger unifying assembly theory with the emergence of cognition</em>), furnature design, creative graphic design, wood working, and so many others, I can’t list them and I’m not going to bore you to death clicking through endless projects.</p>
+
+<p>While these interests aren’t directly tied to my core focus on robotics, they certainly inspire and shape it (<a href="https://portfolio.colebjohnson.com/research#real-time-balancing-of-stability-and-plasticity-in-continual-learning-applied-to-adaptive-speed-estimation-controllers-for-lower-limb-prostheses">e.g. Freud’s repression used in continual learning</a>). Someday, I hope robotics might return the favor and offer us new insights into philosophy and other fields as well.</p>
+
+<hr />
+
+<div class="portfolio-grid">
+  <!-- Project 0 -->
+  <div class="portfolio-card" onclick="toggleModal('modal0')">
+    <h2>Hydra: Self-Rearranging Robot</h2>
+    <p>Fully Designed &middot; 30 Units Manufactured &middot; In-Simulation Controller &middot; RL Form-Based Controller</p>
+  </div>
+  
+  <!-- Project 1 -->
+  <div class="portfolio-card" onclick="toggleModal('modal1')">
+    <h2>Icarus: Humanoid Robot</h2>
+    <p>Fully Designed &middot; Hip-Down Manufactured &middot; Stress-Tested</p>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="portfolio-card" onclick="toggleModal('modal2')">
+    <h2>FINGIE: 27 DoF Robotic Hand</h2>
+    <p>Fully Designed &middot; Fully Manufactured &middot; Inverse-Kinematics</p>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="portfolio-card" onclick="toggleModal('modal3')">
+    <h2>Dum-E: Modular 6DoF Robotic Arm + Generalized End Effector</h2>
+    <p>Fully Designed &middot; Fully Manufactured &middot; Custom PCBs &middot; Inverse-Kinematics</p>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="portfolio-card" onclick="toggleModal('modal4')">
+    <h2>Axis: Autonomous Inverted Double Pendulum</h2>
+    <p>Fully Designed &middot; Fully Manufactured &middot; Custom PCBs &middot; In-Simulation Controller</p>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="portfolio-card" onclick="toggleModal('modal5')">
+    <h2>Falcon: Phone-Deployed Drone</h2>
+    <p>Fully Designed &middot; Fully Manufactured</p>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="portfolio-card" onclick="toggleModal('modal6')">
+    <h2>Apogex: High Altitude Rockoon</h2>
+    <p>Fully Designed &middot; Fully Manufactured &middot; Autonomous Controller &middot; Launched to 36km</p>
+  </div>
+</div>
+
+<!-- Modals -->
+<div id="modal0" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal0')">&times;</button>
+    <h2>Hydra: Self-Rearranging Robot</h2>
+    <img src="/assets/images/project0-large.jpg" alt="Hydra Robot" />
+    <p>Detailed description of Hydra project goes here.</p>
+  </div>
+</div>
+
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal1')">&times;</button>
+    <h2>Icarus: Humanoid Robot</h2>
+    <img src="/assets/images/project1-large.jpg" alt="Icarus Robot" />
+    <p>Detailed description of Icarus project goes here.</p>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal2')">&times;</button>
+    <h2>FINGIE: 27 DoF Robotic Hand</h2>
+    <img src="/assets/images/project2-large.jpg" alt="FINGIE Hand" />
+    <p>Detailed description of FINGIE project goes here.</p>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal3')">&times;</button>
+    <h2>Dum-E: Modular Robotic Arm</h2>
+    <img src="/assets/images/project3-large.jpg" alt="Dum-E Arm" />
+    <p>Detailed description of Dum-E project goes here.</p>
+  </div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal4')">&times;</button>
+    <h2>Axis: Autonomous Inverted Double Pendulum</h2>
+    <img src="/assets/images/project4-large.jpg" alt="Axis Pendulum" />
+    <p>Detailed description of Axis project goes here.</p>
+  </div>
+</div>
+
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal5')">&times;</button>
+    <h2>Falcon: Phone-Deployed Drone</h2>
+    <img src="/assets/images/project5-large.jpg" alt="Falcon Drone" />
+    <p>Detailed description of Falcon project goes here.</p>
+  </div>
+</div>
+
+<div id="modal6" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal6')">&times;</button>
+    <h2>Apogex: High Altitude Rockoon</h2>
+    <img src="/assets/images/project6-large.jpg" alt="Apogex Rockoon" />
+    <p>Detailed description of Apogex project goes here.</p>
+  </div>
+</div>
+
+<!-------------------------------------------- JS & Stylings -------------------------------------------->
+
+<!-- JavaScript for Modal Toggle -->
+<script>
+  function toggleModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+      const isVisible = modal.classList.contains("show-modal");
+      modal.classList.toggle("show-modal", !isVisible);
+      document.body.classList.toggle("modal-open", !isVisible);
+    }
+  }
+
+  // Close modal when clicking outside of it
+  window.addEventListener('click', function(event) {
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach((modal) => {
+      if (event.target === modal) {
+        modal.classList.remove("show-modal");
+        document.body.classList.remove("modal-open");
+      }
+    });
+  });
+</script>
+
+<!-- CSS for the modal and portfolio grid -->
+<!-- CSS for the modal and portfolio grid with fade-in/out effect and adjusted text sizes -->
+<style>
+  /* Portfolio Grid */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .portfolio-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+    width: auto;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .portfolio-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-card h2 {
+    font-size: 1.2em; /* Original font size for project titles */
+    margin: 10px 0;
+  }
+
+  .portfolio-card p {
+    font-size: 0.95em; /* Original font size for project descriptions */
+    color: #555;
+  }
+
+  /* Modal Styles */
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+  }
+
+  .show-modal {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 85vw !important;
+    height: 80vh !important;
+    position: relative;
+    text-align: left;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+  }
+
+  .show-modal .modal-content {
+    transform: scale(1);
+  }
+
+  .modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .modal-content h2 {
+    margin-top: 0;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .modal-open {
+    overflow: hidden;
+  }
+</style>
+
 
     </div>
 
