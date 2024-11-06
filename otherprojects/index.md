@@ -7,7 +7,7 @@ title: Portfolio
 
 I'm curious about nearly everything. I love drawing, writing poetry, thinking about philosophy (mostly political, mind, and ethics currently), complexity theory (*currently on a binger unifying assembly theory with the emergence of cognition*), furnature design, creative graphic design, wood working, and so many others, I can't list them and I'm not going to bore you to death clicking through endless projects.
 
-While these interests aren't directly tied to my core focus on robotics, they certainly inspire and shape it ([e.g. Freud's repression used in continual learning](https://portfolio.colebjohnson.com/research#real-time-balancing-of-stability-and-plasticity-in-continual-learning-applied-to-adaptive-speed-estimation-controllers-for-lower-limb-prostheses)). Someday, I hope robotics might return the favor and offer us new insights into philosophy and other fields as well.
+While these interests aren't directly tied to my core focus on robotics, they certainly inspire and shape it ([e.g. Freudian repression used in continual learning](https://portfolio.colebjohnson.com/research#real-time-balancing-of-stability-and-plasticity-in-continual-learning-applied-to-adaptive-speed-estimation-controllers-for-lower-limb-prostheses)). Someday, I hope robotics might return the favor and offer us new insights into philosophy and other fields as well.
 
 ---
 
