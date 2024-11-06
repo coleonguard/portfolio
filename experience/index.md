@@ -69,5 +69,3 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 - **Dates**: January 2012 - February 2020
 - **Description**: Tutored from 10 to 18 years old topics ranging from basic arithmetic to linear algebra and differential equations.
-
----
