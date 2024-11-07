@@ -37,6 +37,12 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
   </div>
 
   <!-- Project 4 -->
+  <div class="portfolio-card" onclick="toggleModal('modal3.5')">
+    <h2>Multi: A 17-in-1 Pocket Tool</h2>
+    <p>Fully Designed &middot; Fully Manufactured &middot; Everyday Use</p>
+  </div>
+
+  <!-- Project 4 -->
   <div class="portfolio-card" onclick="toggleModal('modal4')">
     <h2>Axis: Autonomous Inverted Double Pendulum</h2>
     <p>Fully Designed &middot; Fully Manufactured &middot; Custom PCBs &middot; In-Simulation Controller</p>
@@ -173,12 +179,27 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
   </div>
 </div>
 
+<div id="modal3.5" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="toggleModal('modal3.5')">&times;</button>
+    <h2>Multi: A 17-in-1 Pocket Tool</h2>
+    <div class="two-column">
+      <div class="text-column">
+        <p>Completed in 2023. Description Coming Soon!</p>
+      </div>
+      <div class="image-column">
+        <img src="images/tool.png" alt="Multitool">
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="modal4" class="modal">
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal4')">&times;</button>
     <h2>Axis: Autonomous Inverted Double Pendulum</h2>
     <img src="/assets/images/project4-large.jpg" alt="Axis Pendulum">
-    <p>Detailed description of Axis project goes here.</p>
+    <p>Completed in 2021. Description Coming Soon!</p>
   </div>
 </div>
 
@@ -186,8 +207,14 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal5')">&times;</button>
     <h2>Falcon: Phone-Deployed Drone</h2>
-    <img src="/assets/images/project5-large.jpg" alt="Falcon Drone">
-    <p>Detailed description of Falcon project goes here.</p>
+    <div class="two-column">
+      <div class="text-column">
+        <p>Completed in 2021. Description Coming Soon!</p>
+      </div>
+      <div class="image-column">
+        <img src="images/falcon.png" alt="Falcon Model">
+      </div>
+    </div>    
   </div>
 </div>
 
@@ -195,8 +222,18 @@ Special thanks to the [Invention Studio at Georgia Tech](https://inventionstudio
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal6')">&times;</button>
     <h2>Apogex: High Altitude Rockoon</h2>
-    <img src="/assets/images/project6-large.jpg" alt="Apogex Rockoon">
-    <p>Detailed description of Apogex project goes here.</p>
+    <p>Completed in 2020. Description Coming Soon!</p>
+    <div class="centered-image">
+        <img src="images/rocket.png" alt="view1">
+    </div>
+    <div class="small-image-row">
+        <img src="images/launch.png" alt="view1">
+        <img src="images/dog.png" alt="view2">
+    </div>
+    <div class="small-image-row">
+        <img src="images/electronics.png" alt="view1">
+        <img src="images/closeup.png" alt="view2">
+    </div>
   </div>
 </div>
 
