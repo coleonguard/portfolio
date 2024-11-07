@@ -9,7 +9,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Co-Founder & Head of Software Engineering @ [Levitree](https://www.levitree.com)
+## Co-Founder & Head of Software Engineering @ <a href="https://www.levitree.com" target="_blank">Levitree</a>
 
 > We are the only solution to elevating terrain without property destruction & are the cheapest carbon sequestration option by an order of magnitude.
 
@@ -18,7 +18,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Visiting Research Fellow @ [Caltech AMBER Lab](http://www.bipedalrobotics.com/)
+## Visiting Research Fellow @ <a href="http://www.bipedalrobotics.com/" target="_blank">Caltech AMBER Lab</a>
 
 > Reinforcement learning for massively parallelized walking controllers & robust safety garauntees using model predictive control.
 
@@ -27,7 +27,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Artificial Intelligence Intern @ [Optimal Dynamics](https://www.optimaldynamics.com/)
+## Artificial Intelligence Intern @ <a href="https://www.optimaldynamics.com/" target="_blank">Optimal Dynamics</a>  
 
 > Hierarchical reinforcement learning for planning optimization.
 
@@ -36,7 +36,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Machine Learning Intern @ [Honeywell](https://www.honeywell.com/us/en)
+## Machine Learning Intern @ <a href="https://www.honeywell.com/us/en" target="_blank">Honeywell</a>  
 
 > NLP and generative language models to automate workflows.
 
@@ -45,7 +45,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Data Analytics Intern @ [Automation Intelligence](https://www.autointel.io/)
+## Data Analytics Intern @ <a href="https://www.autointel.io/" target="_blank">Automation Intelligence</a>  
 
 > Optimization algorithms for route planning in warehouses.
 
@@ -54,7 +54,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Perception Research Intern @ [Berkeley Whitney Lab](https://whitneylab.berkeley.edu/)
+## Perception Research Intern @ <a href="https://whitneylab.berkeley.edu/" target="_blank">Berkeley Whitney Lab</a>  
 
 > Studied human perception through virtual simulations.
 
@@ -63,7 +63,7 @@ While I was getting my BS in Computer Science: Intelligence & Theory at Georgia 
 
 ---
 
-## Mathematics Tutor @ [Mathnasium](https://www.mathnasium.com/)
+## Mathematics Tutor @ <a href="https://www.mathnasium.com/" target="_blank">Mathnasium</a>
 
 > 8 years of teaching mathematics up to differential equations.
 
