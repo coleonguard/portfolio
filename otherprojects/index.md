@@ -32,8 +32,8 @@ While these interests aren't directly tied to my core focus on robotics, they ce
 
   <!-- Project 3 -->
   <div class="portfolio-card" onclick="toggleModal('modal3')">
-    <h2>Woodworking</h2>
-    <p>Chess Board &middot; Mallet</p>
+    <h2>Woodworking & Rocket Engine</h2>
+    <p>Chess Board &middot; SLA Printing &middot; Mallet</p>
   </div>
 
   <!-- Project 4 -->
@@ -73,7 +73,6 @@ While these interests aren't directly tied to my core focus on robotics, they ce
   </div>
 </div>
 
-
 <div id="modal2" class="modal">
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal2')">&times;</button>
@@ -99,8 +98,41 @@ While these interests aren't directly tied to my core focus on robotics, they ce
 <div id="modal3" class="modal">
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal3')">&times;</button>
-    <h2>Dum-E: Modular Robotic Arm & Generalized End Effector</h2>
-    
+    <h2>Rocket Engine</h2>
+    <div class="three-image-row">
+      <img src="images/motor3.png" alt="Image 1">
+      <img src="images/motor1.png" alt="Image 2">
+      <img src="images/motor2.png" alt="Image 3">
+    </div>
+    <h2>Chess Board</h2>
+    <div class="medium-image-row">
+      <img src="images/chessrender1.png" alt="Image 1">
+      <img src="images/chessrender2.png" alt="Image 2">
+    </div>
+    <div class="three-image-row">
+      <img src="images/chesstiles1.png" alt="Image 1">
+      <img src="images/chesstiles2.png" alt="Image 2">
+      <img src="images/chessbase.png" alt="Image 3">
+    </div>
+    <div class="medium-image-row">
+      <img src="images/chesscorner.png" alt="Image 1">
+      <img src="images/chesswithdrawers.png" alt="Image 2">
+    </div>
+    <div class="three-image-row">
+      <img src="images/chessfinal1.png" alt="Image 1">
+      <img src="images/chessfinal2.png" alt="Image 2">
+      <img src="images/chessboard2.png" alt="Image 3">
+    </div>
+    <h2>Boxes, Mallet, etc.</h2>
+    <div class="medium-image-row">
+      <img src="images/box2.png" alt="Image 1">
+      <img src="images/box1.png" alt="Image 2">
+    </div>
+    <div class="three-image-row">
+      <img src="images/mountains.png" alt="Image 1">
+      <img src="images/stand.png" alt="Image 2">
+      <img src="images/mallet.png" alt="Image 3">
+    </div>
   </div>
 </div>
 
