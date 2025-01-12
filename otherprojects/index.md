@@ -5,29 +5,23 @@ title: Portfolio
 
 # Non-Maker Projects
 
-I'm curious about nearly everything. I love drawing, writing poetry, thinking about philosophy (mostly political, mind, and ethics currently), complexity theory, furniture design, creative graphic design, wood working, and many others.
+I'm curious about nearly everything. I love drawing, writing poetry, thinking about philosophy (mostly political, mind, and ethics currently), complexity theory, furniture design, creative graphic design, woodworking, and many others.
 
 While these interests aren't directly tied to my core focus on robotics, they certainly inspire and shape it ([e.g. Freudian repression used in continual learning](https://portfolio.colebjohnson.com/research#real-time-balancing-of-stability-and-plasticity-in-continual-learning-applied-to-adaptive-speed-estimation-controllers-for-lower-limb-prostheses)). Someday, I hope robotics might return the favor and offer us new insights into philosophy and other fields as well.
 
 ---
-
+## Thought
 <div class="portfolio-grid">
-  <!-- Project 0 -->
-  <div class="portfolio-card" onclick="toggleModal('modal0')">
-    <h2>Artwork</h2>
-    <p>Sketching &middot; Ink &middot; Painting</p>
-  </div>
-  
-  <!-- Project 1 -->
-  <div class="portfolio-card" onclick="toggleModal('modal1')">
-    <h2>Tomorrow's Utopia Book</h2>
-    <p>Political Philosophy &middot; Ethics</p>
-  </div>
-
   <!-- Project 2 -->
   <div class="portfolio-card" onclick="toggleModal('modal2')">
     <h2>On The Emergence of Cognition From Complexity</h2>
     <p>Assembly & Complexity Theory</p>
+  </div>
+
+  <!-- Project 1 -->
+  <div class="portfolio-card" onclick="toggleModal('modal1')">
+    <h2>Tomorrow's Utopia Book</h2>
+    <p>Political Philosophy &middot; Ethics</p>
   </div>
 
   <!-- Project 2.1 -->
@@ -35,33 +29,68 @@ While these interests aren't directly tied to my core focus on robotics, they ce
     <h2>The Grand Decoupling of Intention and Agency</h2>
     <p>Social Philosophy &middot; Ethics</p>
   </div>
+  
+  <!-- Project 4 -->
+  <div class="portfolio-card" onclick="toggleModal('modal3.5')">
+    <h2>Nature's Gifts & The Phaethon</h2>
+    <p>Theory of the Mind &middot; Epistemology &middot; Ethics</p>
+  </div>
+</div>
+
+## Creative
+<div class="portfolio-grid">
+  <!-- Project 0 -->
+  <div class="portfolio-card" onclick="toggleModal('modal0')">
+    <h2>Artwork</h2>
+    <p>Sketching &middot; Ink &middot; Painting</p>
+  </div>
 
   <!-- Project 3 -->
   <div class="portfolio-card" onclick="toggleModal('modal2.5')">
     <h2>Woodworking & Rocket Engine</h2>
     <p>Chess Board &middot; SLA Printing &middot; Mallet</p>
   </div>
-
-  <!-- Project 4 -->
-  <div class="portfolio-card" onclick="toggleModal('modal3.5')">
-    <h2>Nature's Gifts & The Phaethon</h2>
-    <p>Theory of the Mind &middot; Epistemology &middot; Ethics</p>
-  </div>
-
+  
   <!-- Project 4 -->
   <div class="portfolio-card" onclick="toggleModal('modal4')">
     <h2>Graphic & Furniture Design</h2>
     <p>Blender &middot; Woodworking &middot; Rendering</p>
   </div>
+</div>
 
 <!-- Modals -->
 <div id="modal0" class="modal">
   <div class="modal-content">
     <button class="close-btn" onclick="toggleModal('modal0')">&times;</button>
     <h2>Artwork</h2>
-    <p> In Process of Scanning All of Them (there're a lot). Page Coming Soon!</p>
+    <!-- Two-column image grid with 75% scaled images -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center; justify-items: center;">
+      <img src="images/Art/3.png" alt="Art 1" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/4.png" alt="Art 2" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/13.png" alt="Art 3" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/11.png" alt="Art 4" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/2.png" alt="Art 5" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/22.png" alt="Art 6" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/7.png" alt="Art 7" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/8.png" alt="Art 8" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/9.png" alt="Art 9" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/10.png" alt="Art 10" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/1.png" alt="Art 11" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/12.png" alt="Art 12" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/6.png" alt="Art 13" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/14.png" alt="Art 14" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/15.png" alt="Art 15" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/16.png" alt="Art 16" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/17.png" alt="Art 17" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/18.png" alt="Art 18" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/19.png" alt="Art 19" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/20.png" alt="Art 20" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/21.png" alt="Art 21" loading="lazy" style="width: 75%; height: auto;">
+      <img src="images/Art/5.png" alt="Art 22" loading="lazy" style="width: 75%; height: auto;">
+    </div>
   </div>
 </div>
+
 
 <div id="modal1" class="modal">
   <div class="modal-content">
